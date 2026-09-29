@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<title>PL Envelopamentos &amp; Adesivos | Envelopamento Automotivo em João Pessoa</title>
+<meta name="description" content="Envelopamento automotivo, adesivos, películas e personalização de veículos em João Pessoa. Conheça os projetos da PL Envelopamentos &amp; Adesivos.">
+<meta property="og:title" content="PL Envelopamentos &amp; Adesivos | Envelopamento Automotivo em João Pessoa">
+<meta property="og:description" content="Envelopamento automotivo, adesivos, películas e personalização de veículos em João Pessoa.">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23050505'/%3E%3Crect x='4' y='4' width='24' height='24' fill='none' stroke='%235B8FD9' stroke-width='2'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
+<script src="./image-slot.js"></script>
+<style>
+html{scroll-behavior:smooth;background:#050505}
+body{margin:0;background:#050505;color:#fff;font-family:'Manrope',system-ui,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#fff;text-decoration:none}
+a:hover{color:#8FB4EA}
+a:focus-visible,button:focus-visible{outline:2px solid #5B8FD9;outline-offset:3px}
+@keyframes heroIn{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}
+@keyframes heroZoom{from{transform:scale(1.08)}to{transform:scale(1)}}
+[data-hero-in]{animation:heroIn 800ms cubic-bezier(.2,.7,.2,1) both;animation-delay:var(--d,0ms)}
+[data-hero-zoom]{animation:heroZoom 9s cubic-bezier(.25,.6,.3,1) both}
+@media (prefers-reduced-motion:reduce){[data-hero-in],[data-hero-zoom]{animation:none}}
+video[data-hero-video]::-webkit-media-controls,video[data-hero-video]::-webkit-media-controls-start-playback-button,video[data-hero-video]::-webkit-media-controls-overlay-play-button,video[data-hero-video]::-webkit-media-controls-panel{display:none!important;-webkit-appearance:none;opacity:0}
+video[data-hero-video]{pointer-events:none}
+[data-reveal]{opacity:0;transform:translateY(14px);transition:opacity 400ms ease,transform 400ms ease}
+[data-reveal].is-in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){video[data-hero-video]::-webkit-media-controls,video[data-hero-video]::-webkit-media-controls-start-playback-button,video[data-hero-video]::-webkit-media-controls-overlay-play-button,video[data-hero-video]::-webkit-media-controls-panel{display:none!important;-webkit-appearance:none;opacity:0}
+video[data-hero-video]{pointer-events:none}
+[data-reveal]{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</helmet>
+
+<header style="position:fixed;top:0;left:0;right:0;z-index:50;background:{{ headerBg }};backdrop-filter:{{ headerBlur }};-webkit-backdrop-filter:{{ headerBlur }};border-bottom:1px solid {{ headerBorder }};transition:background 300ms ease,border-color 300ms ease">
+  <nav aria-label="Principal" style="max-width:1280px;margin:0 auto;height:76px;padding:0 clamp(20px,4vw,48px);display:flex;align-items:center;justify-content:space-between;gap:24px">
+    <a href="#inicio" aria-label="PL Envelopamentos &amp; Adesivos — início" style="display:flex;align-items:center;flex:none;margin-right:clamp(16px,3vw,40px)">
+      <img src="./assets/logo-pl.png" alt="PL Envelopamentos" width="720" height="441" style="display:block;width:clamp(64px,7vw,78px);max-width:100%;height:auto">
+    </a>
+    <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+      <div style="display:flex;align-items:center;gap:28px">
+        <a href="#inicio" style="font-size:12px;letter-spacing:0.14em;font-weight:600">INÍCIO</a>
+        <a href="#servicos" style="font-size:12px;letter-spacing:0.14em;font-weight:600">SERVIÇOS</a>
+        <a href="#projetos" style="font-size:12px;letter-spacing:0.14em;font-weight:600">PROJETOS</a>
+        <a href="#sobre" style="font-size:12px;letter-spacing:0.14em;font-weight:600">SOBRE</a>
+        <a href="#contato" style="font-size:12px;letter-spacing:0.14em;font-weight:600">CONTATO</a>
+      </div>
+      <a href="https://wa.me/5583987704070?text=Ol%C3%A1%21%20Conheci%20a%20PL%20Envelopamentos%20%26%20Adesivos%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" style="font-size:11px;letter-spacing:0.16em;font-weight:700;padding:12px 20px;border:1px solid #5B8FD9;color:#fff;white-space:nowrap;transition:all 250ms ease" style-hover="background:#5B8FD9;color:#fff;transform:translateY(-1px)">SOLICITAR ORÇAMENTO</a>
+    </sc-if>
+    <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+      <div style="display:flex;align-items:center;gap:10px">
+        <a href="https://wa.me/5583987704070?text=Ol%C3%A1%21%20Conheci%20a%20PL%20Envelopamentos%20%26%20Adesivos%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" style="font-size:10px;letter-spacing:0.14em;font-weight:700;padding:12px 14px;border:1px solid #5B8FD9;min-height:44px;display:flex;align-items:center">ORÇAMENTO</a>
+        <button type="button" onClick="{{ toggleMenu }}" aria-label="Abrir menu" aria-expanded="{{ menuOpen }}" style="width:44px;height:44px;background:transparent;border:1px solid #2A2A2A;color:#fff;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;cursor:pointer">
+          <span style="width:18px;height:1px;background:#fff"></span>
+          <span style="width:18px;height:1px;background:#fff"></span>
+          <span style="width:18px;height:1px;background:#fff"></span>
+        </button>
+      </div>
+    </sc-if>
+  </nav>
+  <sc-if value="{{ showMobileMenu }}" hint-placeholder-val="{{ false }}">
+    <div style="background:#0A0A0A;border-top:1px solid #1C1C1C;padding:8px clamp(20px,4vw,48px) 24px;display:flex;flex-direction:column">
+      <a href="#inicio" onClick="{{ closeMenu }}" style="padding:16px 0;border-bottom:1px solid #1A1A1A;font-size:13px;letter-spacing:0.14em;font-weight:600">INÍCIO</a>
+      <a href="#servicos" onClick="{{ closeMenu }}" style="padding:16px 0;border-bottom:1px solid #1A1A1A;font-size:13px;letter-spacing:0.14em;font-weight:600">SERVIÇOS</a>
+      <a href="#projetos" onClick="{{ closeMenu }}" style="padding:16px 0;border-bottom:1px solid #1A1A1A;font-size:13px;letter-spacing:0.14em;font-weight:600">PROJETOS</a>
+      <a href="#sobre" onClick="{{ closeMenu }}" style="padding:16px 0;border-bottom:1px solid #1A1A1A;font-size:13px;letter-spacing:0.14em;font-weight:600">SOBRE</a>
+      <a href="#contato" onClick="{{ closeMenu }}" style="padding:16px 0;font-size:13px;letter-spacing:0.14em;font-weight:600">CONTATO</a>
+    </div>
+  </sc-if>
+</header>
+
+<main>
+<section id="inicio" aria-label="Início" data-screen-label="Hero" style="position:relative;min-height:100svh;background:#0E1418;overflow:hidden;display:flex;flex-direction:column">
+  <sc-if value="{{ heroWide }}" hint-placeholder-val="{{ true }}">
+    <div data-hero-media="" aria-hidden="true" style="position:absolute;inset:-4% 0 -4% 0;will-change:transform">
+      <div data-hero-zoom="" style="position:absolute;inset:0"><video data-hero-video="" src="./assets/hero-bmw.mp4" poster="./assets/hero-bmw-poster.jpg" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" disablepictureinpicture="" disableremoteplayback="" controlslist="nodownload nofullscreen noremoteplayback" preload="auto" tabindex="-1" aria-label="BMW azul em estúdio" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block"></video></div>
+    </div>
+    <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,rgba(5,5,5,0.72) 0%,rgba(5,5,5,0.35) 26%,rgba(5,5,5,0) 46%,rgba(5,5,5,0) 62%,rgba(5,5,5,0.55) 80%,rgba(5,5,5,0.92) 100%)"></div>
+    <div aria-hidden="true" style="position:absolute;inset:0;pointer-events:none;background:radial-gradient(120% 80% at 50% 55%,rgba(5,5,5,0) 55%,rgba(5,5,5,0.55) 100%)"></div>
+    <div style="position:relative;flex:1;display:flex;flex-direction:column;max-width:1400px;width:100%;margin:0 auto;padding:clamp(96px,13vh,120px) clamp(20px,4vw,48px) clamp(24px,4vh,40px)">
+      <div style="display:flex;justify-content:space-between;align-items:center;gap:20px">
+        <span data-hero-in="" style="--d:0ms;font-size:10px;letter-spacing:0.28em;font-weight:700;color:#C8C8C8;display:flex;align-items:center;gap:12px"><span style="width:22px;height:1px;background:#5B8FD9"></span>PERSONALIZAÇÃO AUTOMOTIVA</span>
+        <span data-hero-in="" style="--d:100ms;font-size:10px;letter-spacing:0.28em;font-weight:700;color:#C8C8C8;display:flex;align-items:center;gap:12px">JOÃO PESSOA — PB<span style="width:22px;height:1px;background:#5B8FD9"></span></span>
+      </div>
+      <h1 style="margin:clamp(10px,2.4vh,28px) 0 0;text-align:center;font-family:'Playfair Display',serif;font-weight:600;text-transform:uppercase;font-size:clamp(48px,7.8vw,150px);line-height:0.92;letter-spacing:-0.01em;color:#fff;text-shadow:0 4px 40px rgba(0,0,0,0.35)">
+        <span data-hero-in="" style="--d:250ms;display:block">Seu carro.</span>
+        <span data-hero-in="" style="--d:450ms;display:block;color:transparent;-webkit-text-stroke:1.5px rgba(255,255,255,0.92);text-shadow:none">Sua identidade.</span>
+      </h1>
+      <div style="flex:1;min-height:clamp(120px,22vh,300px)"></div>
+      <div style="display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:end;gap:24px">
+        <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+          <p data-hero-in="" style="--d:700ms;margin:0;font-size:12px;letter-spacing:0.26em;font-weight:700;color:#8FB4EA;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center">ENVELOPAMENTO <span aria-hidden="true" style="width:4px;height:4px;background:#5B8FD9"></span> ADESIVOS <span aria-hidden="true" style="width:4px;height:4px;background:#5B8FD9"></span> PELÍCULAS</p>
+          <p data-hero-in="" style="--d:850ms;margin:0;max-width:400px;font-size:15px;line-height:1.65;color:#D2D2D2;text-wrap:pretty">Transformamos veículos em projetos únicos,<br>com acabamento profissional e atenção aos detalhes.</p>
+        </div>
+        <a data-hero-in="" href="#servicos" style="--d:1200ms;display:flex;flex-direction:column;align-items:center;gap:10px;font-size:9px;letter-spacing:0.3em;font-weight:700;color:#A5A5A5" style-hover="color:#fff">SCROLL TO EXPLORE <span aria-hidden="true" style="font-size:13px">↓</span></a>
+        <div style="display:flex;justify-content:flex-end"><a data-hero-in="" href="https://wa.me/5583987704070?text=Ol%C3%A1%21%20Conheci%20a%20PL%20Envelopamentos%20%26%20Adesivos%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" style="--d:1000ms;display:flex;align-items:center;gap:14px;min-height:52px;padding:0 26px;background:#fff;color:#050505;font-size:11px;letter-spacing:0.18em;font-weight:700;transition:background 250ms ease,transform 250ms ease" style-hover="background:#E6EEF9;color:#050505;transform:translateY(-1px)">COMECE SEU PROJETO <span aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+  </sc-if>
+  <sc-if value="{{ heroNarrow }}" hint-placeholder-val="{{ false }}">
+    <div data-hero-media="" aria-hidden="true" style="position:absolute;left:-14%;right:-14%;top:34%;aspect-ratio:16/9;will-change:transform">
+      <div data-hero-zoom="" style="position:absolute;inset:0"><video data-hero-video="" src="./assets/hero-bmw.mp4" poster="./assets/hero-bmw-poster.jpg" autoplay="" muted="" loop="" playsinline="" webkit-playsinline="" disablepictureinpicture="" disableremoteplayback="" controlslist="nodownload nofullscreen noremoteplayback" preload="auto" tabindex="-1" aria-label="BMW azul em estúdio" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 50%;display:block"></video></div>
+      <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(180deg,#0E1418 0%,rgba(14,20,24,0) 24%,rgba(14,20,24,0) 72%,#0E1418 100%)"></div>
+    </div>
+    <div aria-hidden="true" style="position:absolute;inset:auto 0 0 0;height:40%;pointer-events:none;background:linear-gradient(0deg,rgba(5,5,5,0.95) 0%,rgba(5,5,5,0) 100%)"></div>
+    <div style="position:relative;flex:1;display:flex;flex-direction:column;padding:96px clamp(20px,5vw,40px) 28px">
+      <div style="display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap">
+        <span data-hero-in="" style="--d:0ms;font-size:10px;letter-spacing:0.28em;font-weight:700;color:#C8C8C8;display:flex;align-items:center;gap:12px">PERSONALIZAÇÃO AUTOMOTIVA</span>
+        <span data-hero-in="" style="--d:100ms;font-size:10px;letter-spacing:0.28em;font-weight:700;color:#C8C8C8;display:flex;align-items:center;gap:12px">JOÃO PESSOA — PB</span>
+      </div>
+      <h1 style="margin:22px 0 0;font-family:'Playfair Display',serif;font-weight:600;text-transform:uppercase;font-size:clamp(40px,12.4vw,96px);line-height:0.94;letter-spacing:-0.01em;color:#fff">
+        <span data-hero-in="" style="--d:250ms;display:block">Seu carro.</span>
+        <span data-hero-in="" style="--d:450ms;display:block;color:transparent;-webkit-text-stroke:1.2px rgba(255,255,255,0.92)">Sua<br>identidade.</span>
+      </h1>
+      <div style="flex:1;min-height:clamp(140px,30vh,320px)"></div>
+      <div style="display:flex;flex-direction:column;gap:14px">
+        <p data-hero-in="" style="--d:700ms;margin:0;font-size:12px;letter-spacing:0.26em;font-weight:700;color:#8FB4EA;display:flex;flex-wrap:wrap;gap:10px 14px;align-items:center">ENVELOPAMENTO <span aria-hidden="true" style="width:4px;height:4px;background:#5B8FD9"></span> ADESIVOS <span aria-hidden="true" style="width:4px;height:4px;background:#5B8FD9"></span> PELÍCULAS</p>
+        <p data-hero-in="" style="--d:850ms;margin:0;max-width:400px;font-size:15px;line-height:1.65;color:#D2D2D2;text-wrap:pretty">Transformamos veículos em projetos únicos,<br>com acabamento profissional e atenção aos detalhes.</p>
+        <div style="display:flex;margin-top:6px"><a data-hero-in="" href="https://wa.me/5583987704070?text=Ol%C3%A1%21%20Conheci%20a%20PL%20Envelopamentos%20%26%20Adesivos%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" style="--d:1000ms;display:flex;align-items:center;gap:14px;min-height:52px;padding:0 26px;background:#fff;color:#050505;font-size:11px;letter-spacing:0.18em;font-weight:700;transition:background 250ms ease,transform 250ms ease" style-hover="background:#E6EEF9;color:#050505;transform:translateY(-1px)">COMECE SEU PROJETO <span aria-hidden="true">→</span></a></div>
+      </div>
+    </div>
+  </sc-if>
+</section>
+
+<section id="servicos" aria-labelledby="servicos-titulo" data-screen-label="Serviços" style="scroll-margin-top:76px;background:#0A0A0A;border-top:1px solid #151515;padding:clamp(80px,10vw,128px) clamp(20px,4vw,48px)">
+  <div style="max-width:1180px;margin:0 auto">
+    <div data-reveal="" style="text-align:center;max-width:620px;margin:0 auto 56px;display:flex;flex-direction:column;gap:16px;align-items:center">
+      <p style="margin:0;font-size:11px;letter-spacing:0.28em;font-weight:700;color:#8FB4EA">NOSSOS SERVIÇOS</p>
+      <h2 id="servicos-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(32px,4vw,50px);line-height:1.1;text-wrap:balance">Personalização em cada detalhe</h2>
+      <p style="margin:0;font-size:16px;line-height:1.6;color:#A5A5A5;text-wrap:pretty">Soluções para transformar o visual do seu veículo com qualidade, precisão e estilo.</p>
+    </div>
+    <div style="display:grid;grid-template-columns:{{ cols4 }};gap:16px">
+      <sc-for list="{{ services }}" as="s" hint-placeholder-count="4">
+        <article data-reveal="" style="background:#111111;border:1px solid #1E1E1E;padding:36px 30px 34px;display:flex;flex-direction:column;gap:18px;transition:border-color 300ms ease,transform 300ms ease,background 300ms ease" style-hover="border-color:#2F4A70;background:#131417;transform:translateY(-3px)">
+          <div style="display:flex;align-items:center;justify-content:space-between">
+            <span style="font-family:'Playfair Display',serif;font-size:30px;color:#fff">{{ s.n }}</span>
+            <span style="width:22px;height:1px;background:#5B8FD9"></span>
+          </div>
+          <h3 style="margin:14px 0 0;font-size:15px;letter-spacing:0.08em;font-weight:700;line-height:1.35">{{ s.title }}</h3>
+          <p style="margin:0;font-size:14px;line-height:1.65;color:#A5A5A5">{{ s.text }}</p>
+          <sc-if value="{{ s.hasLink }}" hint-placeholder-val="{{ false }}">
+            <button type="button" onClick="{{ s.go }}" style="margin-top:auto;align-self:flex-start;padding:10px 0 0;min-height:44px;background:transparent;border:0;color:#8FB4EA;font-family:inherit;font-size:11px;letter-spacing:0.16em;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:10px" style-hover="color:#fff">VER PROJETOS <span aria-hidden="true">→</span></button>
+          </sc-if>
+        </article>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section id="projetos" aria-labelledby="projetos-titulo" data-screen-label="Projetos" style="scroll-margin-top:76px;background:#050505;border-top:1px solid #151515;padding:clamp(80px,10vw,128px) clamp(20px,4vw,48px)">
+  <div style="max-width:1180px;margin:0 auto">
+    <div data-reveal="" style="display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:28px;margin-bottom:40px">
+      <div style="display:flex;flex-direction:column;gap:14px;max-width:560px">
+        <p style="margin:0;font-size:11px;letter-spacing:0.28em;font-weight:700;color:#8FB4EA">NOSSOS PROJETOS</p>
+        <h2 id="projetos-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(32px,4vw,50px);line-height:1.1">Projetos que falam por si.</h2>
+        <p style="margin:0;font-size:16px;line-height:1.6;color:#A5A5A5">Confira alguns dos trabalhos realizados pela PL Envelopamentos &amp; Adesivos.</p>
+      </div>
+      <sc-if value="{{ showFilters }}" hint-placeholder-val="{{ true }}">
+        <div role="tablist" aria-label="Filtrar projetos" style="display:flex;flex-wrap:wrap;gap:4px">
+          <sc-for list="{{ filters }}" as="f" hint-placeholder-count="5">
+            <button type="button" role="tab" aria-selected="{{ f.active }}" onClick="{{ f.select }}" style="background:transparent;border:0;border-bottom:1px solid {{ f.line }};color:{{ f.color }};padding:10px 12px;min-height:44px;font-family:inherit;font-size:11px;letter-spacing:0.16em;font-weight:700;cursor:pointer;transition:color 200ms ease,border-color 200ms ease" style-hover="color:#fff">{{ f.label }}</button>
+          </sc-for>
+        </div>
+      </sc-if>
+    </div>
+
+    <sc-if value="{{ showFeatured }}" hint-placeholder-val="{{ true }}">
+      <button type="button" data-reveal="" onClick="{{ featured.open }}" onMouseEnter="{{ featured.enter }}" onMouseLeave="{{ leave }}" aria-label="Ver projeto: {{ featured.title }}" style="position:relative;display:block;width:100%;aspect-ratio:{{ featuredRatio }};padding:0;margin:0 0 20px;border:1px solid #1C1C1C;background:#0E0E0E;overflow:hidden;cursor:pointer;color:#fff;font-family:inherit;text-align:left">
+        <img src="{{ featured.image }}" alt="{{ featured.alt }}" width="1448" height="1086" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:50% 56%;transform:{{ featured.zoom }};transition:transform 400ms ease;filter:contrast(1.04)">
+        <div style="position:absolute;inset:0;pointer-events:none;background:linear-gradient(0deg,rgba(5,5,5,0.9) 0%,rgba(5,5,5,0.35) 34%,rgba(5,5,5,0) 58%)"></div>
+        <div style="position:absolute;inset:0;pointer-events:none;background:#050505;opacity:{{ featured.shade }};transition:opacity 300ms ease"></div>
+        <div style="position:absolute;left:clamp(20px,3vw,40px);right:clamp(20px,3vw,40px);bottom:clamp(20px,3vw,36px);display:flex;flex-wrap:wrap;align-items:flex-end;justify-content:space-between;gap:16px">
+          <div style="display:flex;flex-direction:column;gap:10px">
+            <span style="display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:0.24em;font-weight:700;color:#8FB4EA"><span style="width:22px;height:1px;background:#5B8FD9"></span>PROJETO EM DESTAQUE</span>
+            <span style="font-family:'Playfair Display',serif;font-size:clamp(24px,3vw,40px);font-weight:600;line-height:1.1">Personalização que marca presença.</span>
+          </div>
+          <span style="display:flex;align-items:center;gap:10px;min-height:44px;padding:0 18px;border:1px solid {{ featured.btnLine }};font-size:11px;letter-spacing:0.16em;font-weight:700;background:rgba(5,5,5,0.4);transition:border-color 250ms ease">VER PROJETO <span aria-hidden="true">→</span></span>
+        </div>
+      </button>
+    </sc-if>
+
+    <div style="display:grid;grid-template-columns:{{ gridCols }};gap:20px">
+      <sc-for list="{{ gridItems }}" as="p" hint-placeholder-count="5">
+        <button type="button" onClick="{{ p.open }}" onMouseEnter="{{ p.enter }}" onMouseLeave="{{ leave }}" aria-label="Ver projeto: {{ p.title }}" style="display:flex;flex-direction:column;padding:0;border:0;background:transparent;color:#fff;font-family:inherit;text-align:left;cursor:pointer">
+          <div style="position:relative;width:100%;aspect-ratio:3/4;overflow:hidden;border:1px solid {{ p.line }};background:#0E0E0E;transition:border-color 300ms ease">
+            <img src="{{ p.image }}" alt="{{ p.alt }}" width="{{ p.w }}" height="{{ p.h }}" loading="lazy" decoding="async" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:{{ p.pos }};transform:{{ p.zoom }};transition:transform 400ms ease;filter:contrast(1.04)">
+            <div style="position:absolute;inset:0;pointer-events:none;background:#050505;opacity:{{ p.shade }};transition:opacity 300ms ease"></div>
+            <div style="position:absolute;inset:0;pointer-events:none;display:flex;flex-direction:column;justify-content:space-between;padding:18px;opacity:{{ p.reveal }};transition:opacity 300ms ease">
+              <span style="align-self:flex-start;font-size:10px;letter-spacing:0.22em;font-weight:700;color:#fff;background:rgba(5,5,5,0.7);border:1px solid #2F4A70;padding:7px 10px">{{ p.category }}</span>
+              <span style="align-self:center;display:flex;align-items:center;gap:10px;min-height:44px;padding:0 18px;border:1px solid #fff;font-size:11px;letter-spacing:0.16em;font-weight:700;background:rgba(5,5,5,0.5)">VER PROJETO <span aria-hidden="true">→</span></span>
+              <span></span>
+            </div>
+          </div>
+          <div style="display:flex;justify-content:space-between;align-items:baseline;gap:12px;padding:14px 2px 0">
+            <span style="font-size:15px;font-weight:600">{{ p.title }}</span>
+            <span style="font-size:10px;letter-spacing:0.2em;font-weight:700;color:#8A8A8A;white-space:nowrap">{{ p.category }}</span>
+          </div>
+        </button>
+      </sc-for>
+      
+    </div>
+    <a href="https://www.instagram.com/pl.envelopamentos/" target="_blank" rel="noopener" data-reveal="" style="margin-top:20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:20px;padding:clamp(22px,3vw,32px);border:1px solid #1C1C1C;background:#0A0A0A;color:#fff;transition:border-color 300ms ease" style-hover="border-color:#2F4A70;color:#fff">
+      <div style="display:flex;flex-direction:column;gap:10px">
+        <span style="display:flex;align-items:center;gap:10px;font-size:10px;letter-spacing:0.24em;font-weight:700;color:#8FB4EA"><span style="width:22px;height:1px;background:#5B8FD9"></span>VEJA MAIS PROJETOS</span>
+        <span style="font-family:'Playfair Display',serif;font-size:clamp(20px,2vw,26px);line-height:1.3">Acompanhe os projetos e novidades da PL no Instagram.</span>
+      </div>
+      <span style="display:flex;align-items:center;gap:10px;min-height:44px;padding:0 18px;border:1px solid #3A3A3A;font-size:13px;font-weight:600">@pl.envelopamentos <span aria-hidden="true">↗</span></span>
+    </a>
+  </div>
+</section>
+
+<section id="sobre" aria-labelledby="sobre-titulo" data-screen-label="Diferenciais" style="scroll-margin-top:76px;background:#0A0A0A;border-top:1px solid #151515;padding:clamp(80px,10vw,120px) clamp(20px,4vw,48px)">
+  <div style="max-width:1180px;margin:0 auto">
+    <div data-reveal="" style="text-align:center;margin-bottom:56px;display:flex;flex-direction:column;align-items:center;gap:20px">
+      <h2 id="sobre-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(30px,3.6vw,44px);line-height:1.15">Por que escolher a PL?</h2>
+      <span style="width:48px;height:1px;background:#5B8FD9"></span>
+    </div>
+    <div style="display:grid;grid-template-columns:{{ cols4 }};border-top:1px solid #1C1C1C">
+      <sc-for list="{{ diffs }}" as="d" hint-placeholder-count="4">
+        <div data-reveal="" style="padding:36px 28px;border-bottom:1px solid #1C1C1C;border-right:1px solid #1C1C1C;display:flex;flex-direction:column;gap:14px;text-align:center;align-items:center">
+          <span style="width:8px;height:8px;border:1px solid #5B8FD9;transform:rotate(45deg)"></span>
+          <h3 style="margin:6px 0 0;font-size:14px;letter-spacing:0.12em;font-weight:700">{{ d.title }}</h3>
+          <p style="margin:0;font-size:14px;line-height:1.65;color:#A5A5A5;max-width:240px">{{ d.text }}</p>
+        </div>
+      </sc-for>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="premio-titulo" data-screen-label="Melhores do Ano" style="background:#050505;border-top:1px solid #151515;padding:clamp(72px,9vw,128px) clamp(20px,4vw,48px);overflow:hidden">
+  <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,380px),1fr));align-items:center;gap:clamp(40px,6vw,96px)">
+    <figure data-reveal="" style="margin:0;min-width:0;position:relative;max-width:520px;width:100%;justify-self:center">
+      <div aria-hidden="true" style="position:absolute;inset:18px -18px -18px 18px;border:1px solid #2F4A70"></div>
+      <div style="position:relative;border:1px solid #1C1C1C;background:#0A0A0A;box-shadow:0 30px 60px -20px rgba(0,0,0,0.7);overflow:hidden">
+        <img src="./assets/melhores-do-ano.jpg" alt="Responsável pela PL Envelopamentos &amp; Adesivos segurando o certificado e o troféu Melhores do Ano" width="1624" height="2182" loading="lazy" decoding="async" style="display:block;width:100%;height:auto">
+      </div>
+    </figure>
+    <div data-reveal="" style="min-width:0;display:flex;flex-direction:column;align-items:flex-start;gap:24px;max-width:500px">
+      <p style="margin:0;font-size:11px;letter-spacing:0.28em;font-weight:700;color:#8FB4EA;display:flex;align-items:center;gap:14px"><span style="width:28px;height:1px;background:#5B8FD9"></span>RECONHECIMENTO</p>
+      <h2 id="premio-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(36px,4.6vw,64px);line-height:1.05;letter-spacing:-0.01em">Melhores do Ano</h2>
+      <p style="margin:0;font-size:clamp(16px,1.3vw,18px);line-height:1.65;color:#E0E0E0;text-wrap:pretty">Um reconhecimento que representa dedicação, qualidade e compromisso em cada projeto.</p>
+      <p style="margin:0;font-size:15px;line-height:1.7;color:#A5A5A5;text-wrap:pretty;padding-left:18px;border-left:1px solid #2F4A70">A PL Envelopamentos &amp; Adesivos segue transformando veículos e projetos com personalidade, precisão e atenção aos detalhes.</p>
+      <a href="#projetos" style="margin-top:8px;display:flex;align-items:center;gap:12px;min-height:48px;padding:0 24px;border:1px solid #5B8FD9;color:#fff;font-size:11px;letter-spacing:0.16em;font-weight:700;transition:all 250ms ease" style-hover="background:#5B8FD9;color:#fff;transform:translateY(-1px)">CONHEÇA NOSSOS PROJETOS <span aria-hidden="true">→</span></a>
+    </div>
+  </div>
+</section>
+
+<section aria-labelledby="pagamento-titulo" data-screen-label="Condições de pagamento" style="background:#050505;padding:0 clamp(20px,4vw,48px) clamp(24px,4vw,40px)">
+  <div data-reveal="" style="max-width:1180px;margin:0 auto;border:1px solid #1C1C1C;background:#0A0A0A;padding:clamp(24px,3.4vw,40px);display:grid;grid-template-columns:auto minmax(0,1fr);gap:clamp(18px,2.6vw,32px);align-items:start">
+    <span aria-hidden="true" style="width:44px;height:44px;border:1px solid #2F4A70;display:grid;place-items:center">
+      <svg width="20" height="20" viewBox="0 0 20 20" fill="none"><circle cx="10" cy="10" r="8.25" stroke="#5B8FD9" stroke-width="1.2"></circle><path d="M10 1.75a8.25 8.25 0 0 1 0 16.5z" fill="#5B8FD9"></path></svg>
+    </span>
+    <div style="display:flex;flex-direction:column;gap:10px;min-width:0">
+      <p style="margin:0;font-size:10px;letter-spacing:0.24em;font-weight:700;color:#8FB4EA">COMO FUNCIONA</p>
+      <h2 id="pagamento-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(20px,2vw,24px);line-height:1.25;color:#fff">Condições de pagamento</h2>
+      <p style="margin:0;max-width:760px;font-size:15px;line-height:1.7;color:#A5A5A5;text-wrap:pretty">Após a aprovação do orçamento, é realizada uma entrada de 50% do valor do serviço para reservar a agenda e iniciar a preparação do projeto. Os 50% restantes são pagos na conclusão do serviço.</p>
+    </div>
+  </div>
+</section>
+
+<section id="contato" aria-labelledby="cta-titulo" data-screen-label="Contato" style="scroll-margin-top:76px;background:#050505;padding:clamp(88px,11vw,140px) clamp(20px,4vw,48px) clamp(64px,8vw,96px)">
+  <div style="max-width:1180px;margin:0 auto;display:flex;flex-direction:column;gap:clamp(64px,8vw,104px)">
+    <div data-reveal="" style="text-align:center;max-width:680px;margin:0 auto;display:flex;flex-direction:column;align-items:center;gap:22px">
+      <h2 id="cta-titulo" style="margin:0;font-family:'Playfair Display',serif;font-weight:600;font-size:clamp(34px,4.4vw,58px);line-height:1.08;text-wrap:balance">Pronto para transformar seu carro?</h2>
+      <p style="margin:0;font-size:16px;line-height:1.65;color:#A5A5A5;max-width:480px;text-wrap:pretty">Fale com a PL Envelopamentos &amp; Adesivos e descubra a melhor solução para o seu projeto.</p>
+      <a href="https://wa.me/5583987704070?text=Ol%C3%A1%21%20Conheci%20a%20PL%20Envelopamentos%20%26%20Adesivos%20pelo%20site%20e%20gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener noreferrer" style="margin-top:8px;display:flex;align-items:center;gap:12px;min-height:52px;padding:0 30px;background:#fff;color:#050505;font-size:11px;letter-spacing:0.16em;font-weight:700;transition:all 250ms ease" style-hover="background:#E6EEF9;color:#050505;transform:translateY(-1px)">SOLICITAR ORÇAMENTO <span aria-hidden="true">→</span></a>
+    </div>
+    <div data-reveal="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,340px),1fr));border:1px solid #1C1C1C;background:#0A0A0A">
+      <div style="padding:clamp(28px,4vw,48px);display:flex;flex-direction:column;gap:18px;justify-content:center">
+        <p style="margin:0;font-size:11px;letter-spacing:0.28em;font-weight:700;color:#8FB4EA">LOCALIZAÇÃO</p>
+        <h3 style="margin:0;font-family:'Playfair Display',serif;font-size:26px;font-weight:600">PL Envelopamentos &amp; Adesivos</h3>
+        <address style="font-style:normal;font-size:15px;line-height:1.7;color:#A5A5A5">Rua Professora Rejane Inácio Soares de Alencar, 190<br>Mangabeira<br>João Pessoa - PB</address>
+        <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:6px">
+          <a href="https://www.google.com/maps/dir/?api=1&amp;destination=Rua+Professora+Rejane+In%C3%A1cio+Soares+de+Alencar,+190,+Mangabeira,+Jo%C3%A3o+Pessoa+-+PB,+Brasil" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;min-height:48px;padding:0 22px;border:1px solid #5B8FD9;font-size:11px;letter-spacing:0.16em;font-weight:700;transition:all 250ms ease" style-hover="background:#5B8FD9;color:#fff;transform:translateY(-1px)">COMO CHEGAR <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+      <sc-if value="{{ showMap }}" hint-placeholder-val="{{ true }}">
+        <div style="min-height:340px;position:relative;border-left:1px solid #1C1C1C">
+          <iframe title="Mapa — PL Envelopamentos &amp; Adesivos" src="https://www.google.com/maps?q=Rua+Professora+Rejane+In%C3%A1cio+Soares+de+Alencar,+190,+Mangabeira,+Jo%C3%A3o+Pessoa+-+PB,+Brasil&amp;output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" style="position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(1) invert(0.92) contrast(0.9)"></iframe>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer style="background:#050505;border-top:1px solid #151515;padding:clamp(40px,5vw,56px) clamp(20px,4vw,48px) 24px">
+  <div style="max-width:1180px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,260px),1fr));gap:clamp(28px,4vw,48px);align-items:start">
+    <div style="display:flex;flex-direction:column;gap:14px;min-width:0">
+      <a href="#inicio" aria-label="PL Envelopamentos &amp; Adesivos — início" style="display:flex;align-self:flex-start">
+        <img src="./assets/logo-pl.png" alt="PL Envelopamentos" width="720" height="441" loading="lazy" style="display:block;width:clamp(96px,9vw,112px);max-width:100%;height:auto">
+      </a>
+      <span style="font-size:11px;letter-spacing:0.18em;font-weight:700;color:#fff">PL ENVELOPAMENTOS &amp; ADESIVOS</span>
+      <p style="margin:0;font-size:14px;line-height:1.6;color:#A5A5A5;max-width:300px">Envelopamento automotivo, adesivos e películas em João Pessoa.</p>
+    </div>
+    <nav aria-label="Serviços" style="display:flex;flex-direction:column;gap:10px;min-width:0">
+      <h2 style="margin:0 0 4px;font-size:11px;letter-spacing:0.22em;font-weight:700;color:#8FB4EA">SERVIÇOS</h2>
+      <a href="#servicos" style="font-size:14px;color:#A5A5A5">Envelopamento Automotivo</a>
+      <a href="#servicos" style="font-size:14px;color:#A5A5A5">Adesivos</a>
+      <a href="#servicos" style="font-size:14px;color:#A5A5A5">Películas</a>
+      <a href="#servicos" style="font-size:14px;color:#A5A5A5">Personalização</a>
+    </nav>
+  </div>
+  <div style="max-width:1180px;margin:clamp(28px,4vw,40px) auto 0;padding-top:20px;border-top:1px solid #151515;font-size:12px;color:#8A8A8A">© PL Envelopamentos &amp; Adesivos</div>
+</footer>
+
+<sc-if value="{{ lbOpen }}" hint-placeholder-val="{{ false }}">
+  <div role="dialog" aria-modal="true" aria-label="{{ lb.title }}" style="position:fixed;inset:0;z-index:100;background:rgba(3,3,3,0.97);display:flex;flex-direction:column">
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:14px clamp(16px,3vw,32px);border-bottom:1px solid #151515">
+      <span style="font-size:12px;letter-spacing:0.2em;font-weight:700;color:#A5A5A5">{{ lb.counter }}</span>
+      <button type="button" onClick="{{ closeLb }}" aria-label="Fechar" style="min-width:44px;min-height:44px;padding:0 16px;background:transparent;border:1px solid #2A2A2A;color:#fff;font-family:inherit;font-size:11px;letter-spacing:0.16em;font-weight:700;cursor:pointer;display:flex;align-items:center;gap:10px" style-hover="border-color:#5B8FD9">FECHAR <span aria-hidden="true" style="font-size:16px">×</span></button>
+    </div>
+    <div onClick="{{ closeLb }}" onTouchStart="{{ touchStart }}" onTouchEnd="{{ touchEnd }}" style="flex:1;min-height:0;display:flex;align-items:center;justify-content:center;gap:16px;padding:clamp(12px,3vw,32px)">
+      <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+        <button type="button" onClick="{{ prevLb }}" aria-label="Projeto anterior" style="flex:none;width:52px;height:52px;background:transparent;border:1px solid #2A2A2A;color:#fff;font-size:18px;cursor:pointer" style-hover="border-color:#5B8FD9">←</button>
+      </sc-if>
+      <img onClick="{{ stop }}" src="{{ lb.image }}" alt="{{ lb.alt }}" style="max-width:100%;max-height:100%;min-width:0;min-height:0;object-fit:contain;display:block;border:1px solid #1C1C1C">
+      <sc-if value="{{ isDesktop }}" hint-placeholder-val="{{ true }}">
+        <button type="button" onClick="{{ nextLb }}" aria-label="Próximo projeto" style="flex:none;width:52px;height:52px;background:transparent;border:1px solid #2A2A2A;color:#fff;font-size:18px;cursor:pointer" style-hover="border-color:#5B8FD9">→</button>
+      </sc-if>
+    </div>
+    <div style="display:flex;align-items:center;justify-content:space-between;gap:16px;padding:16px clamp(16px,3vw,32px) 22px;border-top:1px solid #151515">
+      <div style="display:flex;flex-direction:column;gap:6px;min-width:0">
+        <span style="font-size:10px;letter-spacing:0.22em;font-weight:700;color:#8FB4EA">{{ lb.category }}</span>
+        <span style="font-family:'Playfair Display',serif;font-size:clamp(18px,2vw,24px)">{{ lb.title }}</span>
+        <sc-if value="{{ lb.hasDesc }}" hint-placeholder-val="{{ false }}"><span style="font-size:14px;color:#A5A5A5">{{ lb.description }}</span></sc-if>
+      </div>
+      <sc-if value="{{ isMobile }}" hint-placeholder-val="{{ false }}">
+        <div style="display:flex;gap:8px;flex:none">
+          <button type="button" onClick="{{ prevLb }}" aria-label="Projeto anterior" style="width:48px;height:48px;background:transparent;border:1px solid #2A2A2A;color:#fff;font-size:18px">←</button>
+          <button type="button" onClick="{{ nextLb }}" aria-label="Próximo projeto" style="width:48px;height:48px;background:transparent;border:1px solid #2A2A2A;color:#fff;font-size:18px">→</button>
+        </div>
+      </sc-if>
+    </div>
+  </div>
+</sc-if>
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{&quot;showFilters&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Portfólio&quot;},&quot;showMap&quot;:{&quot;editor&quot;:&quot;boolean&quot;,&quot;default&quot;:true,&quot;tsType&quot;:&quot;boolean&quot;,&quot;section&quot;:&quot;Contato&quot;}}">
+// Portfólio: para adicionar um projeto, coloque a foto em assets/portfolio/ e inclua um item aqui.
+// tags = filtros em que o projeto aparece. featured = projeto em destaque (apenas um).
+const PORTFOLIO = [
+  { id: 'kombi', image: './assets/portfolio/kombi.jpg', w: 1448, h: 1086, title: 'Envelopamento Comercial', category: 'COMERCIAL', tags: ['AUTOMOTIVO', 'COMERCIAL'], description: '', alt: 'Kombi branca com envelopamento comercial aplicado pela PL', featured: true },
+  { id: 'xre', image: './assets/portfolio/xre.jpg', w: 1086, h: 1448, title: 'Personalização de Motocicleta', category: 'MOTOS', tags: ['MOTOS', 'PERSONALIZADOS'], description: '', alt: 'Motocicleta azul personalizada no estúdio da PL', pos: '50% 60%' },
+  { id: 'comercial', image: './assets/portfolio/comercial.jpg', w: 1086, h: 1448, title: 'Comunicação Visual', category: 'COMERCIAL', tags: ['COMERCIAL'], description: '', alt: 'Placa de comunicação visual produzida pela PL', pos: '50% 45%' },
+  { id: 'fan', image: './assets/portfolio/fan.jpg', w: 1086, h: 1448, title: 'Personalização de Motocicleta', category: 'MOTOS', tags: ['MOTOS', 'PERSONALIZADOS'], description: '', alt: 'Motocicleta preta com adesivos personalizados', pos: '50% 50%' },
+  { id: 'fachada', image: './assets/portfolio/fachada.jpg', w: 1086, h: 1333, title: 'Comunicação Visual', category: 'COMERCIAL', tags: ['COMERCIAL'], description: '', alt: 'Fachada comercial com comunicação visual da PL', pos: '45% 50%' },
+  { id: 'adesivo-parede', image: './assets/portfolio/adesivo-parede.jpg', w: 1086, h: 1448, title: 'Adesivo de Parede', category: 'PERSONALIZADOS', tags: ['PERSONALIZADOS'], description: '', alt: 'Parede revestida com adesivo marmorizado com veios dourados', pos: '50% 45%' },
+  { id: 'eletro', image: './assets/portfolio/eletro.jpg', w: 740, h: 1069, title: 'Envelopamento de Eletrodoméstico', category: 'PERSONALIZADOS', tags: ['PERSONALIZADOS'], description: '', alt: 'Geladeira com envelopamento preto brilhante', pos: '50% 50%' },
+];
+const CATS = ['TODOS', 'AUTOMOTIVO', 'MOTOS', 'COMERCIAL', 'PERSONALIZADOS'];
+
+class Component extends DCLogic {
+  state = { scrolled: false, w: typeof window !== 'undefined' ? window.innerWidth : 1280, vh: typeof window !== 'undefined' ? window.innerHeight : 800, menuOpen: false, filter: 'TODOS', lb: -1, hover: null };
+
+  componentDidMount() {
+    this.reduceMotion = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    this.onScroll = () => {
+      const y = window.scrollY, s = y > 24;
+      if (s !== this.state.scrolled) this.setState({ scrolled: s });
+      if (!this.reduceMotion && y < window.innerHeight * 1.2) document.querySelectorAll('[data-hero-media]').forEach(el => { el.style.transform = 'translate3d(0,' + (y * 0.22).toFixed(1) + 'px,0)'; });
+    };
+    this.onResize = () => this.setState({ w: window.innerWidth, vh: window.innerHeight, menuOpen: window.innerWidth < 1100 && this.state.menuOpen });
+    this.onKey = e => {
+      if (e.key === 'Escape') this.setState({ lb: -1, menuOpen: false });
+      if (this.state.lb >= 0 && e.key === 'ArrowRight') this.step(1);
+      if (this.state.lb >= 0 && e.key === 'ArrowLeft') this.step(-1);
+    };
+    window.addEventListener('scroll', this.onScroll, { passive: true });
+    window.addEventListener('resize', this.onResize);
+    window.addEventListener('keydown', this.onKey);
+    this.onScroll(); this.onResize();
+    this.io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('is-in'); this.io.unobserve(e.target); } }), { threshold: 0.12 });
+    this.sync();
+  }
+  componentDidUpdate(_, prev) {
+    this.sync();
+    if ((prev.lb >= 0) !== (this.state.lb >= 0)) document.body.style.overflow = this.state.lb >= 0 ? 'hidden' : '';
+  }
+  componentWillUnmount() {
+    window.removeEventListener('scroll', this.onScroll);
+    window.removeEventListener('resize', this.onResize);
+    window.removeEventListener('keydown', this.onKey);
+    this.io && this.io.disconnect();
+  }
+  sync() {
+    document.querySelectorAll('[data-reveal]:not(.is-in)').forEach(el => this.io.observe(el));
+    const reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.querySelectorAll('video[data-hero-video]').forEach(v => {
+      if (v.dataset.ready) return; v.dataset.ready = '1'; v.muted = true; v.defaultMuted = true;
+      v.loop = true; v.controls = false; v.playsInline = true; v.setAttribute('playsinline', ''); v.setAttribute('webkit-playsinline', '');
+      const tryPlay = () => { if (v.paused) { const p = v.play(); if (p && p.catch) p.catch(() => {}); } };
+      v.addEventListener('canplay', tryPlay);
+      v.addEventListener('pause', () => { if (!document.hidden) setTimeout(tryPlay, 150); });
+      v.addEventListener('ended', () => { v.currentTime = 0; tryPlay(); });
+      tryPlay();
+      if (!this._unlock) {
+        this._unlock = () => document.querySelectorAll('video[data-hero-video]').forEach(x => { if (x.paused) { const p = x.play(); if (p && p.catch) p.catch(() => {}); } });
+        ['touchstart', 'pointerdown', 'scroll', 'keydown'].forEach(ev => window.addEventListener(ev, this._unlock, { passive: true }));
+        document.addEventListener('visibilitychange', () => { if (!document.hidden) this._unlock(); });
+      }
+    });
+  }
+  list() { const f = this.state.filter; return PORTFOLIO.filter(p => f === 'TODOS' || p.tags.includes(f)); }
+  step(d) { const n = this.list().length; this.setState(s => ({ lb: (s.lb + d + n) % n })); }
+  goFilter(c) {
+    this.setState({ filter: c });
+    const el = document.getElementById('projetos');
+    if (el) window.scrollTo({ top: el.getBoundingClientRect().top + window.scrollY - 76, behavior: 'smooth' });
+  }
+
+  renderVals() {
+    const { scrolled, w, vh, menuOpen, filter, lb, hover } = this.state;
+    const heroWide = w >= 720 && w / vh >= 1.15;
+    const isMobile = w < 1100;
+    const solid = scrolled || menuOpen;
+    const list = this.list();
+    const deco = (p, i) => {
+      const on = hover === p.id;
+      return { ...p, pos: p.pos || '50% 50%', open: () => this.setState({ lb: i, hover: null }), enter: () => this.setState({ hover: p.id }),
+        zoom: on ? 'scale(1.035)' : 'scale(1)', shade: on ? 0.38 : 0, reveal: on ? 1 : 0, line: on ? '#2F4A70' : '#1C1C1C', btnLine: on ? '#5B8FD9' : '#3A3A3A' };
+    };
+    const items = list.map(deco);
+    const featured = items.find(p => p.featured);
+    const cur = list[lb] || list[0] || PORTFOLIO[0];
+    let tx = 0;
+    return {
+      headerBg: solid ? 'rgba(8,8,8,0.9)' : 'transparent',
+      headerBlur: solid ? 'blur(8px)' : 'none',
+      headerBorder: solid ? '#1C1C1C' : 'transparent',
+      isDesktop: !isMobile, isMobile, menuOpen,
+      heroWide, heroNarrow: !heroWide,
+      heroPos: heroWide ? '55% 50%' : '64% 50%',
+      heroJustify: heroWide ? 'space-between' : 'flex-start',
+      heroShade: heroWide
+        ? 'linear-gradient(90deg,rgba(5,5,5,0.86) 0%,rgba(5,5,5,0.66) 26%,rgba(5,5,5,0.22) 48%,rgba(5,5,5,0) 66%)'
+        : 'linear-gradient(180deg,rgba(5,5,5,0.88) 0%,rgba(5,5,5,0.7) 38%,rgba(5,5,5,0.15) 62%,rgba(5,5,5,0) 100%)',
+      cols4: w >= 1000 ? 'repeat(4,minmax(0,1fr))' : w >= 560 ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
+      gridCols: w >= 1000 ? 'repeat(3,minmax(0,1fr))' : w >= 600 ? 'repeat(2,minmax(0,1fr))' : 'minmax(0,1fr)',
+      featuredRatio: w >= 700 ? '16/9' : '4/3',
+      showMobileMenu: isMobile && menuOpen,
+      toggleMenu: () => this.setState(s => ({ menuOpen: !s.menuOpen })),
+      closeMenu: () => this.setState({ menuOpen: false }),
+      services: [
+        { n: '01', title: 'ENVELOPAMENTO AUTOMOTIVO', text: 'Transformação visual do veículo com acabamento profissional.', cat: 'AUTOMOTIVO' },
+        { n: '02', title: 'ADESIVOS PERSONALIZADOS', text: 'Projetos personalizados para veículos e diferentes aplicações.', cat: 'COMERCIAL' },
+        { n: '03', title: 'PELÍCULAS', text: 'Soluções para proteção, privacidade e acabamento visual.' },
+        { n: '04', title: 'PERSONALIZAÇÃO AUTOMOTIVA', text: 'Projetos pensados para destacar a identidade de cada veículo.', cat: 'PERSONALIZADOS' },
+      ].map(s => ({ ...s, hasLink: !!s.cat, go: () => this.goFilter(s.cat) })),
+      diffs: [
+        { title: 'ACABAMENTO PRECISO', text: 'Atenção aos detalhes em cada etapa do projeto.' },
+        { title: 'MATERIAIS DE QUALIDADE', text: 'Soluções pensadas para entregar um resultado visual profissional.' },
+        { title: 'ATENDIMENTO PERSONALIZADO', text: 'Cada projeto é tratado de acordo com o objetivo e estilo do cliente.' },
+        { title: 'IDENTIDADE ÚNICA', text: 'Seu veículo com uma aparência que representa seu estilo.' },
+      ],
+      showFilters: this.props.showFilters ?? true,
+      showMap: this.props.showMap ?? true,
+      filters: CATS.map(c => ({
+        label: c, active: c === filter,
+        color: c === filter ? '#FFFFFF' : '#8A8A8A',
+        line: c === filter ? '#5B8FD9' : 'transparent',
+        select: () => this.setState({ filter: c, hover: null }),
+      })),
+      showFeatured: !!featured,
+      featured: featured || deco(PORTFOLIO[0], 0),
+      gridItems: items.filter(p => !p.featured),
+      leave: () => this.setState({ hover: null }),
+      lbOpen: lb >= 0,
+      lb: { ...cur, hasDesc: !!cur.description, counter: String(Math.max(lb, 0) + 1).padStart(2, '0') + ' / ' + String(list.length).padStart(2, '0') },
+      closeLb: () => this.setState({ lb: -1 }),
+      prevLb: e => { e && e.stopPropagation(); this.step(-1); },
+      nextLb: e => { e && e.stopPropagation(); this.step(1); },
+      touchStart: e => { this._tx = e.touches[0].clientX; },
+      touchEnd: e => { const dx = e.changedTouches[0].clientX - (this._tx || 0); if (Math.abs(dx) > 50) { e.preventDefault(); this.step(dx < 0 ? 1 : -1); } },
+      stop: e => e.stopPropagation(),
+    };
+  }
+}
+</script>
+</body>
+</html>
